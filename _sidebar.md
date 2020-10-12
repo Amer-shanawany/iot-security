@@ -1,7 +1,12 @@
 <!-- docs/_sidebar.md -->
 
+<<<<<<< HEAD
 * [Home](./)
   * [Teamleden](./documentation/teamleden.md)
+=======
+* [Home](/)
+  * [Teamleden](documentation/teamleden.md)
+>>>>>>> 77ad581e7805a2f31b7e2e03d505951a00ce20cf
   * [Probleemstelling](analyse/probleemstelling/probleemstelling-index.md)
     * [Probleemstelling](analyse/probleemstelling/probleemstelling.md)
     * [Deelproblemen](analyse/probleemstelling/deelproblemen.md)

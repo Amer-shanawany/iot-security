@@ -1,3 +1,0 @@
-# Probleemstelling
-
-De huidige Labfarm wordt uitgebreid met een XY-systeem met camera die zal toelaten elke plant in de Labfarm individueel te monitoren. De camera moet naar een locatie kunnen bewegen waarna een foto van de plant moet worden getrokken. De Labfarm moet in de toekomst gemakkelijk geupgraded kunnen worden. Het XY-systeem dient dus opgebouwd als losstaand systeem met een aparte controller. Andere systemen (pomp, verlichting, voeding,…) zullen in de toekomst ook worden gescheiden waarbij het de bedoeling is dat alle systemen worden aangestuurd door een centrale unit.

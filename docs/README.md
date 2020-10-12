@@ -1,3 +1,4 @@
-# IoT Security
+# IoT Security - Zigbee
 
-> IoT Security
+> Amer Al Shanawany
+> Jonas Baert

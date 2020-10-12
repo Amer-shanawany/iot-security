@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-  * [Teamleden](analyse/teamleden.md)
+  * [Teamleden](documentation/teamleden.md)
   * [Probleemstelling](analyse/probleemstelling/probleemstelling-index.md)
     * [Probleemstelling](analyse/probleemstelling/probleemstelling.md)
     * [Deelproblemen](analyse/probleemstelling/deelproblemen.md)

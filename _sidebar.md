@@ -1,0 +1,23 @@
+<!-- docs/_sidebar.md -->
+
+* [Home](/)
+  * [Teamleden](analyse/teamleden.md)
+  * [Probleemstelling](analyse/probleemstelling/probleemstelling-index.md)
+    * [Probleemstelling](analyse/probleemstelling/probleemstelling.md)
+    * [Deelproblemen](analyse/probleemstelling/deelproblemen.md)
+  * [Abstract](analyse/abstract/abstract.md)
+  * [Smart Object (Hardware analyse)](analyse/hw-analyse/hw-index.md)
+    * [Hardware blokdiagram](analyse/hw-analyse/blokdiagram.md)
+    * [Specificatie tabel](analyse/hw-analyse/specificatie.md)
+    * [Argumentatie en alternatieven](analyse/hw-analyse/argumentatie.md)
+    * [Elektrische schemas](analyse/hw-analyse/schema.md)
+  * [Software analyse](analyse/sw-analyse/sw-index.md)
+    * [Data in/out](analyse/sw-analyse/data-in-out.md)
+    * [State diagram](analyse/sw-analyse/state-diagram.md)
+    * [Flowcharts](analyse/sw-analyse/flowcharts.md)
+    * [Mock ups](analyse/sw-analyse/mock-ups.md)
+  * [Appendix](analyse/appendix/appendix-index.md)
+    * [Datasheets](analyse/appendix/datasheets.md)
+    * [Bronnen](analyse/appendix/bronnen.md)
+    * [Bill of materials (v0.1)](analyse/appendix/inventarislijst.md)
+    

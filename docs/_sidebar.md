@@ -1,13 +1,15 @@
 <!-- docs/_sidebar.md -->
 
 
-* [HOME](./)
+* [Home](./)
 
-* [A](./a/index)
-  * [1](./a/1/index)
-  * [2](./a/2/index)
-  * [3](./a/3/index)
+* [Zigbee](./zigbee/index.md)
+  * [Wat is Zigbee?](./zigbee/watiszigbee.md)
+  * [Architectuur](./zigbee/architectuur.md)
+  * [Specificaties](./zigbee/specificaties.md)
+  
+* [Zigbee security](./security/index.md)
+  * [Security issues](./security/securityissues.md)
 
-* [B](./a/index)
-
-* [C](./c/index)
+* [Appendix](./appendix/index.md)
+  * [Bronnen](./appendix/bronnen.md)

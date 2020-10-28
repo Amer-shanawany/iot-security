@@ -1,3 +1,3 @@
 # Appendix
 
-* [Bronnen](bronnen.md)
+* [Bronnen](./appendix/bronnen.md)

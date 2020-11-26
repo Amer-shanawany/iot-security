@@ -9,6 +9,7 @@
   * [Specificaties](./zigbee/specificaties.md)
   
 * [Zigbee security](./security/index.md)
+  * [Security Architectuur](./security/security.md)
   * [Security issues](./security/securityissues.md)
   
 * [Praktisch](./praktisch/index.md)

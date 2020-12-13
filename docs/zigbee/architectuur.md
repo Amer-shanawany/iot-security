@@ -1,14 +1,14 @@
-# Architectuur
+> # Architectuur
 
-> #### IEEE 802.15.4 Protocol
+## IEEE 802.15.4 Protocol
 
 De fysieke laag van ZigBee zorgt voor de modulatie en demodulatie van data, verzending- en ontvangst management en opereert op een lage en hoge frequentie. In Europa is de lage frequentie 868.0-868.6 MHz, in de US en Australie is dit 902-928 MHz. De hoge frequentie is wereldwijd 2400-2483.5 MHZ.
 
-> #### MAC Layer
+## MAC Layer
 
 De MAC Layer controleert de toegang tot de fysieke laag gebruik makend van een [CSMA-CA](https://nl.wikipedia.org/wiki/CSMA/CA). De coördinator van het netwerk zorgt ervoor dat pakketjes data tijdens een gegarandeerd tijdsslot worden verzonden en op die manier een gegarandeerde verbinding.
 
-> #### IEEE 802.15.4 Network Model
+## IEEE 802.15.4 Network Model
 
 De standaard maakt gebruik van 2 types netwerk apparaten.
 
@@ -20,7 +20,7 @@ De standaard maakt gebruik van 2 types netwerk apparaten.
 
   Een RFD is meestal een eenvoudig apparaat - vaak batterijgevoed - met een eenvoudige taak. Ze kunnen enkel opereren als End Device omdat ze geen routing functionaliteiten bezitten en kunnen enkel communiceren met FFD's. RFD's kunnen dus onderling niet met elkaar communiceren.
 
->#### IEEE 802.15.4 topologiëen
+## IEEE 802.15.4 topologiëen
 
 De standaard definiëert 2 mogelijke topologiëen.
 
@@ -34,11 +34,11 @@ De standaard definiëert 2 mogelijke topologiëen.
 
   Net zoals bij de star-topologie is er slechts een enkele PAN coordinator, maar elk toestel kan met elk toestel communiceren binnen hetzelfde netwerk.
 
-> #### Adressering
+## Adressering
 
 Er zijn 2 types van adressering. Een toestel krijgt een extended address (64-bits) van de producent en een uniek short address (16-bits) dat hij krijgt van de coordinator van het netwerk.
 
-> #### ZigBee device types
+## ZigBee device types
 
 Een ZigBee device kan opereren in 3 verschillende modi of node types.
 
@@ -54,7 +54,7 @@ Een ZigBee device kan opereren in 3 verschillende modi of node types.
 
   Een ZigBee End Device kan zowel een FFD als RFD zijn. Wanneer een FFD is geconfigureerd als end device zal deze geen pakketjes routeren.
 
-> #### ZigBee topologiëen
+## ZigBee topologiëen
 
 De ZigBee network layer maakt gebruik van 3 verschillende topologiëen
 
@@ -72,7 +72,7 @@ De ZigBee network layer maakt gebruik van 3 verschillende topologiëen
 
   Ook in deze topologie is de ZC verantwoordelijk voor het starten van het netwerk en controleren, en wordt de topologie verlengd door ZigBee routers. Echter is het nu mogelijk om volledige peer-to-peer te verbinden. Dit type network wordt ook wel self-healing genoemd. Wanneer een coordinator wegvalt leidt dit niet onmiddelijk tot falen van andere devices.
 
-> #### Zigbee addressering
+## Zigbee addressering
 
 - ###### IEEE Address
 
@@ -82,7 +82,7 @@ De ZigBee network layer maakt gebruik van 3 verschillende topologiëen
 
   Dit uniek 16-bit adres dat wordt ingesteld door de ZigBee layer wordt meegegeven aan een device in het netwerk. Via dit adres is het mogelijk om een bepaald device te benaderen.
 
-> #### Zigbee Network Identity
+## Zigbee Network Identity
 
 - ###### PAN Identifier (PAN ID)
 
@@ -92,7 +92,7 @@ De ZigBee network layer maakt gebruik van 3 verschillende topologiëen
 
   Deze 64-bits identifier wordt gebruikt wanneer meerdere PAN een bepaalde ruimte actief zijn. Deze extra identifier verhelpt conflicten zijn tussen overlappende networks met dezelfde PAN ID.
 
->#### Application level addressing
+## Application level addressing
 
 - ###### End Point Address
 

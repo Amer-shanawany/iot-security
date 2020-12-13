@@ -13,7 +13,8 @@
   * [Security issues](./security/securityissues.md)
   
 * [Praktisch](./praktisch/index.md)
-  * [Praktisch](./praktisch/praktisch.md)  
-
+  * [Zigbee2MQTT](./praktisch/Zigbee2MQTT.md)
+  * [Sniffing Zigbee traffic](./praktisch/sniffing.md)
+  
 * [Appendix](./appendix/index.md)
   * [Bronnen](./appendix/bronnen.md)

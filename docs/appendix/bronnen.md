@@ -1,6 +1,6 @@
-# Bronnen
+> # Bronnen
 
-> #### Websites
+#### Websites
 
 - [zigbee2mqtt.io | Zigbee2mqtt documentation](https://www.zigbee2mqtt.io)
 - [ZigBee Alliance](https://zigbeealliance.org)
@@ -10,7 +10,8 @@
 - [ZigBee Wireless Technology Architecture and Applications](https://www.elprocus.com/what-is-zigbee-technology-architecture-and-its-applications/)
 - [ZigBee introdcution](https://www.icpdas-usa.com/zigbeeintro)
 
-> #### PDF
+#### PDF
 
 - <a href="appendix/pdf/docs-05-3474-21-0csg-zigbee-specification.pdf">ZigBee Specification</a>
 - <a href="appendix/pdf/Zigbee-Technical-2019.pdf">Zigbee-Technical-2019.pdf</a>
+- <a href="appendix/pdf/MJS_045_Zillner_ZigBee.pdf">ZigBee Exploited - The good, the bad and the ugly - Tobias Zillner</a>

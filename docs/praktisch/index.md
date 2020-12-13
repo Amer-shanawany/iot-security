@@ -1,3 +1,4 @@
 # Praktisch
 
-* [Praktisch](./praktisch/praktisch.md)
+* [Zigbee2MQTT](./praktisch/Zigbee2MQTT.md)
+* [Sniffing Zigbee traffic](./praktisch/sniffing.md)

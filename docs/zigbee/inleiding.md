@@ -1,6 +1,6 @@
-# Inleiding
+> # Inleiding
 
-> #### Wat is Zigbee?
+## Wat is Zigbee?
 
 Zigbee werd ontwikkeld in jaren '90 als een draadloos netwerk als alternatief voor bedrade toepassingen. In tegenstelling tot Bluetooth en Wifi is Zigbee beter geschikt als draadloze toepassing wanneer slechts sporadisch data moet worden verzonden. Gevolg hiervan is dat het een stuk energiezuiniger is en dus beter geschikt als bijvoorbeeld sensor voor een centrale controller/systeem.
 
@@ -15,7 +15,7 @@ De technologie zien vaak terugkomen in volgende sectoren:
 
 ![icons8-zigbee-480](/img/icons8-zigbee-480.png)
 
-> #### Voordelen
+## Voordelen
 
 Naast het voordeel dat het energiezuinig is - een deursensor kan makkelijk ene jaar doen met een enkele batterij - zijn er nog andere specifieke voordelen. Communicatie tussen apparaten is twee-wegs. Commando's worden dus steeds bevestig en is dus zeer betrouwbaar als technologie bij domotica.
 
@@ -25,7 +25,7 @@ De draadloze technologie maakt net als WiFi en Bluetooth gebruik van 2.4Ghz-band
 
 Misschien het grootste voordeel is dat Zigbee gebouwd is als mest-netwerk. Apparaten kunnen commando's aan elkaar doorgeven wat betekent dat bij elke toevoeging van een apparaat het bereik en de betrouwbaarheid van het netwerk toeneemt.
 
-> #### Nadelen
+## Nadelen
 
 Wanneer het netwerk slechts uit enkele apparaten is het bereik eerder beperkt - vaak slechts 15m-20m in openlucht. Als je dit vergelijkt met Z-Wave of LoraWan is dit een heel stuk minder. Het bereik vergroot wanneer er meerdere apparaten worden toegevoegd en commando's kunnen worden doorgegeven.
 

@@ -1,3 +1,0 @@
-# Praktisch
-
-Zigbee2MQTT

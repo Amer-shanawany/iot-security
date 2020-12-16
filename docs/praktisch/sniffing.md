@@ -14,5 +14,3 @@ cd whsniff-1.1
 make
 sudo make install
 ```
-
-## fdsfdqsf

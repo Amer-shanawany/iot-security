@@ -9,6 +9,8 @@
 - [ZigBee uitgelegd – Wat is Zigbee?](https://homey.app/nl-be/wiki/wat-is-zigbee/)
 - [ZigBee Wireless Technology Architecture and Applications](https://www.elprocus.com/what-is-zigbee-technology-architecture-and-its-applications/)
 - [ZigBee introdcution](https://www.icpdas-usa.com/zigbeeintro)
+- [Introduction to IoT: Build an MQTT Server Using Raspberry Pi](https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
+- [MQTT Security: Securing a Mosquitto Server](https://dzone.com/articles/mqtt-security-securing-a-mosquitto-server)
 
 #### PDF
 

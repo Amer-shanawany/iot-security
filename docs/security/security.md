@@ -42,7 +42,7 @@ Deze beveiligingsmodel beidt een hogere beveiligingnveau. Het is ook ingewikkeld
 
 Trust Center (TC) vormt een gecentraliseerd netwerk, configureert en verifieert routers en apparaten, en het maakt een unieke __koppelingsleutel__ voor elke nieuwe apparaat op het netwerk wanneer ze zich aanmelden.
 TC bepaalt ook de __netwerksleutel__. 
-Om een deel te nemen aan een zo'n model, moeten alle entiteten geconfigureerd te zijn meet een vooraf __koppelingsleutel__.
+Om een deel te nemen aan een zo'n model, moeten alle entiteten geconfigureerd te zijn met een vooraf __koppelingsleutel__.
 
 <br>
 
@@ -56,7 +56,7 @@ Om een deel te nemen aan een zo'n model, moeten alle entiteten geconfigureerd te
 Er zijn drie typen sleutels beschikbaar binnen de ZigBee technologie:
 
 ##### Master Key
-Beschouwd als de belangrijkste sleutels onder communiceerde nodes. Deze sleutel wordt gebruikt in de Key Establishment Procedure genaamd SKKE (afk: Symmetrics Key Key Exchange) om de uitwissiling van __koppelingssleutels__ tussen twee nodes vertrouwelijk te houden.
+Beschouwd als de belangrijkste sleutels onder communiceerde nodes. Deze sleutel wordt gebruikt in de Key Establishment Procedure genaamd SKKE (afk: Symmetrics Key Key Exchange) om de uitwisseling van __koppelingssleutels__ tussen twee nodes vertrouwelijk te houden.
 Tijdens de fabricage van een apparaat er wordt een __Master__ __sleutel__ erbinnen geinstalleerd, __**of**__ er kunnen draadloos worden geinstalleerd in het ZigBee netwerk. Deze worden meestal gedeeld door alle nodes.
 Nieuwe nodes gebruiken ook de __Master__ __key__ via het SKKE-protocol om de __koppelingssleutels__ met de andere nodes in te stellen. 
 
@@ -64,5 +64,5 @@ Nieuwe nodes gebruiken ook de __Master__ __key__ via het SKKE-protocol om de __k
 Deze sleutel wordt gebruikt om alle informatie te encrypteren die tussen twee nodes wordt uitgewisseld. Ze worden beheerd op applicatieniveau en zijn uniek voor elk paar nodes.
 
 ##### Network Key
-Deze sleutel wordt oorspronkelijk gegenereerd door het Trust Center, om te bescheremen tegen aanvallen van buitenaf. Het kan ook met verschillende intervallen opnieuw worden gegenereerd en zijn nodig om het nodes op het netwerk te laten aansluiten. Het is een 128b-sleutel, en worden gedeeld door alle apparaten in het netwerk.
+Deze sleutel wordt oorspronkelijk gegenereerd door het Trust Center, om te bescheremen tegen aanvallen van buitenaf. Het kan ook met verschillende intervallen opnieuw worden gegenereerd en zijn nodig om de nodes op het netwerk te laten aansluiten. Het is een 128b-sleutel, en wordt gedeeld door alle apparaten in het netwerk.
  

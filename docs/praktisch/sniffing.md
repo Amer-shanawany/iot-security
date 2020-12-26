@@ -30,7 +30,7 @@ TC:   5A:69:67:42:65:65:41:6C:6C:69:61:6E:63:65:30:39
 
 Met deze sleutel kunnen wij alle pakketjes met Wireshark decrypteren, nu gaan wij deze sleutel toevoegen aan Wireshark. Edit-> preferences-> protocols -> ZigBee 
 
-![WireShark-Keys](./img/Wireshark_keys.jpg)
+![WireShark-Keys](./img/wireshark_keys.jpg)
 
 Wanneer een apparaat probeert deel te nemen aan de ZigBee-setup, dan het nieuwe aangesloten apparaat verzendt een verzoek een geeft basisinformatie over zichself.
 De trust center encrypteert de Netwerk-Sleutel met de TC-sleutel die wij al hebben.

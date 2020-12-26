@@ -16,7 +16,43 @@ sudo make install
 ```
 
 ## ZBOSS 
-
+ZBOSS sniffer is een open-source cross-platform Zigbee pakketsniffer. het bevat een eenvoudig gebruikers-interface en is bedoeld om te werken met Wireshark.
 Maake een Account, Log in, en download de Source Code via deze [link](https://zboss.dsr-wireless.com/downloads/index/zboss)
 
 ![ZBOSS GUI](./img/zboss.JPG)
+
+Het default channel voor Zigbee2Mqtt is ```0x0B (11)```. 
+
+Deze sleutel is de gehashd Hex van de ASCII woordje "ZigBeeAlliance09" die nu is publiek beschikbaar voor iedereen. [bron]("https://peeveeone.com/?p=135")
+```
+TC:   5A:69:67:42:65:65:41:6C:6C:69:61:6E:63:65:30:39
+```
+
+Met deze sleutel kunnen wij alle pakketjes met Wireshark decrypteren, nu gaan wij deze sleutel toevoegen aan Wireshark. Edit-> preferences-> protocols -> ZigBee 
+
+![WireShark-Keys](./img/Wireshark_keys.JPG)
+
+Wanneer een apparaat probeert deel te nemen aan de ZigBee-setup, dan het nieuwe aangesloten apparaat verzendt een verzoek een geeft basisinformatie over zichself.
+De trust center encrypteert de Netwerk-Sleutel met de TC-sleutel die wij al hebben.
+
+![transport-key](./img/transport_key.JPG)
+
+Nu gaan wij deze sleutel ook aan wireshark toevoegen.
+
+![pre_configured_keys](./img/pre_configured_keys.JPG)
+
+Vervolgens, gaan wij alle communicatie kunnen uitlezen en dencrypteren, binnen de Zigbee netwerk
+![decrypted_msg](./img/decrypted_msg.JPG)
+
+---
+
+# Conclusie
+
+## Hoe groot is de kans deze aanval te gebeuren ?
+
+*    Wanneer een nieuw apparaat aan het netwerk wordt gekoppeld en de Standaard Trust-Center sleutel  wordt gebruikt om de netwerksleutel te encrypteren.
+*   Wanneer een apparaat opnieuw verbinding maakt met het netwerk, en de netwerk-Setup maakt het mogelijk om opnieuw deel te nemen met behulpl van de standaard TC-Sleutel.
+
+Zelfs met een beperkte kans (kort tijd period) om dit beveiligingslek te misbruikten, kunnen aanvallers hun kansen op succes maximaliseren door de gebruiker te manipuleren.
+Een manier waarop ze dit kunnen doen, is door ruis naar het Zigbee kanaal te sturen om de communicatie te verstroen, in de hoop een gebruiker te misleiden om te proberen een apparaat opnieuw te koppelen om de sniffing-aanval uit te voeren.
+

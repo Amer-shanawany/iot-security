@@ -56,3 +56,4 @@ Vervolgens, gaan wij alle communicatie kunnen uitlezen en dencrypteren, binnen d
 Zelfs met een beperkte kans (kort tijd period) om dit beveiligingslek te misbruikten, kunnen aanvallers hun kansen op succes maximaliseren door de gebruiker te manipuleren.
 Een manier waarop ze dit kunnen doen, is door ruis naar het Zigbee kanaal te sturen om de communicatie te verstroen, in de hoop een gebruiker te misleiden om te proberen een apparaat opnieuw te koppelen om de sniffing-aanval uit te voeren.
 
+

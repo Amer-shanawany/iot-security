@@ -42,7 +42,7 @@ Nu gaan wij deze sleutel ook aan wireshark toevoegen.
 ![pre_configured_keys](./img/pre_configured_keys.jpg)
 
 Vervolgens, gaan wij alle communicatie kunnen uitlezen en dencrypteren, binnen de Zigbee netwerk
-![decrypted_msg](./img/decrypted_msg.jpg)
+![decrypted_msg](./img/decrypted.jpg)
 
 ---
 

@@ -19,7 +19,7 @@ sudo make install
 ZBOSS sniffer is een open-source cross-platform Zigbee pakketsniffer. het bevat een eenvoudig gebruikers-interface en is bedoeld om te werken met Wireshark.
 Maake een Account, Log in, en download de Source Code via deze [link](https://zboss.dsr-wireless.com/downloads/index/zboss)
 
-![ZBOSS GUI](./img/zboss.jpg)
+![ZBOSS GUI](./img/zboss1.jpg)
 
 Het default channel voor Zigbee2Mqtt is ```0x0B (11)```. 
 
@@ -30,7 +30,7 @@ TC:   5A:69:67:42:65:65:41:6C:6C:69:61:6E:63:65:30:39
 
 Met deze sleutel kunnen wij alle pakketjes met Wireshark decrypteren, nu gaan wij deze sleutel toevoegen aan Wireshark. Edit-> preferences-> protocols -> ZigBee 
 
-![WireShark-Keys](./img/wireshark_keys.jpg)
+![WireShark-Keys](./img/wireshark_keys1.jpg)
 
 Wanneer een apparaat probeert deel te nemen aan de ZigBee-setup, dan het nieuwe aangesloten apparaat verzendt een verzoek een geeft basisinformatie over zichself.
 De trust center encrypteert de Netwerk-Sleutel met de TC-sleutel die wij al hebben.

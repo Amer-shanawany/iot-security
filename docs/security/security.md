@@ -24,11 +24,11 @@ ZigBee onderstennt ook Frequency Agility (frequency jumping), waarbij het netwer
 source: zigbee 3.0 Task Force,zigbee: Securing the Wireless IoT(2017)
 
 
->## Security Model
+## Security Model
 
 Om te voldoen aan een breed scala aan toepassingen met behoud van lage kosten en stroom, biedt ZigBee twee netwerkmodellen aan, namelijk gedistribueerd en gecentraliseerd. Ze verschillen in hoe ze nieuwe apparaten in het netwerk toelaten en hoe ze berichten op het netwerk beschermen.
 
-### Gedistribueerd beveiligingsmodel
+#### Gedistribueerd beveiligingsmodel
 
 Het biedt een minder beveiligd en eenvoudiger systeem. het heeft twee apparaattypen: routers en eindapparaten.
 Een router kan een gedistribueerd beveiligingsnetwerk vormen als hij geen bestaand netwerk kan vinden.
@@ -36,7 +36,7 @@ Elke router kan __netwerksleutels__ uitgeven.
 Wanneer een nieuwe router of een apparaat zich bij het netwerk aansluit, verzenden de eerdere routers op het netwerk de sleutel.
 Om een deel te nemen aan gedistribueerde beveiligingsnetwerk, moeten alle routers en eindapparaten vooraf geconfigureerd zijn met een __koppelingssleutel__ die wordt gebruikt om de __netwerksleutel__ te encrypteren bij het doorgeven ervan aan een nieuwe lid.
 
-### Gecentraliseerd beveiligingsmodel
+#### Gecentraliseerd beveiligingsmodel
 
 Deze beveiligingsmodel beidt een hogere beveiligingnveau. Het is ook ingewikkeld omdat het een derde apparaattype bevat, die een Trust Center (TC) genoemd, en dat is meestal de netwerkcoordinator.
 
